@@ -23,7 +23,7 @@ Enter your name: Niky
 
 Character Decimal Binary
 
-**N 78 01001110**
+#@N 78 01001110
 **i 105 01101001**
 **k 107 01101011**
 **y 121 01111001**
@@ -48,8 +48,8 @@ def name_to_codes(name):
     decimal_codes = []
 
     for char in name:
-        decimal_value = ord(char)              # ASCII/Unicode decimal
-        binary_value = format(decimal_value, '08b')  # 8-bit binary
+        decimal_value = ord(char)             
+        binary_value = format(decimal_value, '08b') 
         decimal_codes.append(decimal_value)
         binary_codes.append(binary_value)
 
